@@ -42,13 +42,6 @@ export SPARK_DIST_CLASSPATH=$(/usr/local/hadoop/bin/hadoop classpath)
 export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 export PATH=$JAVA_HOME/bin:$PATH
 
-export SPARK_MASTER_IP=192.168.1.175
-export SPARK_MASTER_PORT=7077
-export SPARK_MASTER_HOST=192.168.1.175
-export SPARK_LOCAL_IP=192.168.1.175
-export SPARK_EXECUTOR_MEMORY=1024m
-export SPARK_MASTER_WEBUI_PORT=8080
-
 export HADOOP_HOME=/usr/local/hadoop
 export PATH=$HADOOP_HOME/bin:$PATH
 
